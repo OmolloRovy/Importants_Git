@@ -1,1 +1,42 @@
+# 1 – Create New Repository
+# 2 – Now Open cmd
+Now go to the Terminal on your computer system. Use cd to navigate to the local project directory that you want to publish on GitHub.
 
+CD to navigate to your directory
+
+cd/your_directory_name
+# 3 – Initialize Local Directory
+Now we will intialize our project. Use the below command to initialise the local directory as Git repository.
+
+git init
+# 4 – Add Local repository
+Add all the files in the local directory to staging using the command below.
+
+git add . 
+This command stages all the files in the directory, ready for commit.
+
+# 5 – Commit Repository
+You can now commit the staged files using the command below. It is explanatory and helpful.
+
+git commit -m "First commit Message"
+
+# 6 – Add Remote Repository url
+Now, copy the remote repository URL provided by github to you when you published your repository on GitHub.
+
+git repository url
+Now we will add the copied URL for your GitHub repository as remote repository using the code below.
+
+git remote add origin https://github.com/yourusername/your-repo-name.git
+This command add our GitHub repository as a remote that you can then push your local repository changes.
+
+# 7 – Push Local Repository to github
+In the last step, use the below command line in your terminal to push the local repository to GitHub. It will upload the file or project on github.
+
+git push origin master
+If you use -u in the command, it will remember your preferences for remote and branch and you can simply use the command git push next time.
+
+git push -u origin master
+# 8 – Pull Repository from github
+Pull the desired branch from the upstream repository. This method will retain the commit history without modification.
+
+git pull origin master
