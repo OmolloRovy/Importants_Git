@@ -40,4 +40,4 @@ git push -u origin master
 Pull the desired branch from the upstream repository. This method will retain the commit history without modification.
 
 git pull origin master
-#9 pull may be
+#9 pull may be om
